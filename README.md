@@ -19,11 +19,24 @@ Predicting Loan State with SVM method, preprocessing and feature selction
 You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsadiAhmad/Loan-Prediction-SVM/blob/main/Code/Loan_Prediction_SVM.ipynb)
 
 ## About the Dataset
+### Download Dataset
 you can use this Dataset with clicking this badges :
 
 Train set : [![Static Badge](https://img.shields.io/badge/Trainset-red?style=for-the-badge&logo=databricks&labelColor=fcfbd4)](https://github.com/AsadiAhmad/Loan-Prediction-SVM/blob/main/Dataset/train.csv)
 
 Test Set : [![Static Badge](https://img.shields.io/badge/Testset-red?style=for-the-badge&logo=databricks&labelColor=fcfbd4)](https://github.com/AsadiAhmad/Loan-Prediction-SVM/blob/main/Dataset/test.csv)
+
+### Using Dataset on jupyter notebook
+on the step 3 of the code file you can easily use the dataset like importing this code:
+```sh
+train_set_url = "https://raw.githubusercontent.com/AsadiAhmad/Loan-Prediction-SVM/refs/heads/main/Dataset/train.csv"
+test_set_url = "https://raw.githubusercontent.com/AsadiAhmad/Loan-Prediction-SVM/refs/heads/main/Dataset/test.csv"
+
+pd.set_option('display.max_rows', None)
+
+train_set = pd.read_csv(train_set_url)
+test_set = pd.read_csv(test_set_url)
+```
 
 ### Dataset Structure
 
