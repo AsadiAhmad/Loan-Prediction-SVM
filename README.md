@@ -43,7 +43,7 @@ Test Set : [![Static Badge](https://img.shields.io/badge/Testset-red?style=for-t
 
 ## Execution time
 
-For running all sell on hosted runtime it costs about 132 minutes **(around 2 hours)**.
+For running all sell on hosted runtime it costs about 132 minutes **(around 2 hours)** but there is tips to run it **around 5 minutes**.
 
 But you can just using one kernel for the SVM so here are more details:
 
