@@ -18,6 +18,12 @@ Predicting Loan State with SVM method, preprocessing and feature selction
 
 You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsadiAhmad/Loan-Prediction-SVM/blob/main/Code/Loan_Prediction_SVM.ipynb)
 
+## Algorithms used
+
+- Pearson Correlation : for features selection
+- SVM algorithm : for training model
+- Grid Search : for finding best hyper parameters
+
 ## About the Dataset
 ### Download Dataset
 you can use this Dataset with clicking this badges :
