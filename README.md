@@ -41,6 +41,21 @@ Test Set : [![Static Badge](https://img.shields.io/badge/Testset-red?style=for-t
 | Property_Area | Urban/Semiurban/Rural |
 | Loan_Status | Whether Loan Approved: Yes/No |
 
+## Execution time
+
+For running all sell on hosted runtime it costs about 132 minutes **(around 2 hours)**.
+
+But you can just using one kernel for the SVM so here are more details:
+
+- Linear Kernel : **5 min**
+- Poly Kernel : **16 min**
+- RBF Kernel : **8 min**
+- Sigmoid Kernel : **37 min**
+
+and for the finding the optimized hyperparameter you need to run again this kernels but you can optimize the hyperparameters (Step 10) and skip first training model (Step 9).
+
+the kernels are not having different accuracy so you can just select one in the Step 10 (finding hyperparameter) like the linear kernel and your all time to spend running jupyter notbook is just **around 5 min**.
+
 ## License
 
 This project is licensed under the MIT License.
