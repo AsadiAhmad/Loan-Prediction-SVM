@@ -40,21 +40,21 @@ test_set = pd.read_csv(test_set_url)
 
 ### Dataset Structure
 
-| Column | Description |
-| ----------- | ----------- |
-| Loan_ID | Unique Loan ID |
-| Gender | Male/Female |
-| Married | Whether Married: Yes/No |
-| Dependents | No. of people depending on the Applicant |
-| Education | Graduate/Undergraduate |
-| Self_Employment | Whether Self_Employment : Yes/No |
-| ApplicantIncome | Applicant Income |
-| CoapplicantIncome | Co-Applicant Income |
-| LoanAmount | Loan Amount (in thousands) |
-| Loan_Amount_Term | Loan Duration |
-| Credit_History | Credit History of the Applicant |
-| Property_Area | Urban/Semiurban/Rural |
-| Loan_Status | Whether Loan Approved: Yes/No |
+| Column | Description | Type |
+| ----------- | ----------- | ----------- |
+| Id | Unique Loan ID | Int |
+| Income | The income person have | Int |
+| Age | Age of person | Int |
+| Experience | No. of years of experience | Int |
+| Married/Single | Married/Single state : single/married | String |
+| House_Ownership | House ownership : owned/rented/norent_noown | String |
+| Car_Ownership | Car ownership : yes/no | String |
+| Profession | The profession person have | String |
+| CITY | The city person live | String |
+| STATE | The state person live | String |
+| CURRENT_JOB_YRS | How many years the person have the job | Int |
+| CURRENT_HOUSE_YRS | How many years the person have the house | Int |
+| Risk_Flag | Loan State: 0/1 | Int |
 
 ## Execution time
 
