@@ -64,18 +64,18 @@ test_set = pd.read_csv(test_set_url)
 
 ## Execution time
 
-For running all sell on hosted runtime it costs about 132 minutes **(around 2 hours)** but there is tips to run it **around 5 minutes**.
+For running all sell on hosted runtime it costs about 65 minutes **(around 1 hours)** but there is tips to run it **around 15 minutes**.
 
 But you can just using one kernel for the SVM so here are more details:
 
-- Linear Kernel : **5 min**
-- Poly Kernel : **16 min**
-- RBF Kernel : **8 min**
-- Sigmoid Kernel : **37 min**
+- Linear Kernel : **2 min**
+- Poly Kernel : **2 min**
+- RBF Kernel : **3 min**
+- Sigmoid Kernel : **2 min**
 
 and for the finding the optimized hyperparameter you need to run again this kernels but you can optimize the hyperparameters **(Step 10)** and **skip** first training model **(Step 9)**.
 
-the kernels are not having different accuracy so you can just select one in the** Step 10** (finding hyperparameter) like the **linear kernel** and your all time to spend running jupyter notbook is just **around 5 min**.
+the kernels are not have different accuracy the best one is rbf model so run that in the** Step 10** (finding hyperparameter) running time in google colab is just **around 15 min**.
 
 ## License
 
